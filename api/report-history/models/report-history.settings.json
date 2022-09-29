@@ -1,0 +1,41 @@
+{
+  "kind": "collectionType",
+  "collectionName": "report_histories",
+  "info": {
+    "name": "Report History"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Date": {
+      "type": "date"
+    },
+    "ReportName": {
+      "type": "string"
+    },
+    "DownloadLink": {
+      "type": "string"
+    },
+    "StartDate": {
+      "type": "date"
+    },
+    "EndDate": {
+      "type": "date"
+    },
+    "Start": {
+      "type": "string"
+    },
+    "End": {
+      "type": "string"
+    },
+    "ServiceName": {
+      "type": "string"
+    },
+    "RFID": {
+      "type": "string"
+    }
+  }
+}

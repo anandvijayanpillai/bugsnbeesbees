@@ -1,0 +1,17 @@
+{
+  "kind": "collectionType",
+  "collectionName": "recharge_types",
+  "info": {
+    "name": "Recharge Type"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Name": {
+      "type": "string"
+    }
+  }
+}

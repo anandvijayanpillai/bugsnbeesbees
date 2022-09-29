@@ -1,0 +1,41 @@
+{
+  "kind": "collectionType",
+  "collectionName": "recharges",
+  "info": {
+    "name": "Recharge"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "CustomerID": {
+      "type": "string"
+    },
+    "RFID": {
+      "type": "string"
+    },
+    "Balance": {
+      "type": "float"
+    },
+    "RechargeAmount": {
+      "type": "float"
+    },
+    "WalletBalance": {
+      "type": "float"
+    },
+    "Date": {
+      "type": "date"
+    },
+    "Type": {
+      "type": "string"
+    },
+    "Note": {
+      "type": "string"
+    },
+    "CustomerName": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "medicals",
+  "info": {
+    "name": "Medical"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "MedicineName": {
+      "type": "string"
+    },
+    "Time": {
+      "type": "time"
+    }
+  }
+}

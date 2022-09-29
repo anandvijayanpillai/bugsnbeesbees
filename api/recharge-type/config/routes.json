@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/recharge-types",
+      "handler": "recharge-type.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/recharge-types/count",
+      "handler": "recharge-type.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/recharge-types/:id",
+      "handler": "recharge-type.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/recharge-types",
+      "handler": "recharge-type.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/recharge-types/:id",
+      "handler": "recharge-type.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/recharge-types/:id",
+      "handler": "recharge-type.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

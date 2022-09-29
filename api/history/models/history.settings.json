@@ -1,0 +1,48 @@
+{
+  "kind": "collectionType",
+  "collectionName": "histories",
+  "info": {
+    "name": "History",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "RFID": {
+      "type": "string"
+    },
+    "CustomerName": {
+      "type": "string"
+    },
+    "OpeningBalance": {
+      "type": "float"
+    },
+    "Balance": {
+      "type": "float"
+    },
+    "PhoneNumber": {
+      "type": "biginteger"
+    },
+    "ServiceName": {
+      "type": "string"
+    },
+    "Amount": {
+      "type": "float"
+    },
+    "Date": {
+      "type": "date"
+    },
+    "CustomerID": {
+      "type": "string"
+    },
+    "RunningTime": {
+      "type": "string"
+    },
+    "RunningSecond": {
+      "type": "string"
+    }
+  }
+}

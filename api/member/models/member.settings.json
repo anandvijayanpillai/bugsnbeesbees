@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "members",
+  "info": {
+    "name": "Member",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "EmailID": {
+      "type": "email"
+    },
+    "PhoneNumber": {
+      "type": "biginteger"
+    },
+    "Amount": {
+      "type": "float"
+    },
+    "Status": {
+      "type": "boolean"
+    },
+    "RFID": {
+      "type": "string"
+    }
+  }
+}

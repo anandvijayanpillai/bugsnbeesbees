@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "main_services",
+  "info": {
+    "name": "MainService"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Service": {
+      "type": "string"
+    },
+    "Icon": {
+      "type": "string"
+    }
+  }
+}

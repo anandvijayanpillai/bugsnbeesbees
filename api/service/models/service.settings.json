@@ -1,0 +1,57 @@
+{
+  "kind": "collectionType",
+  "collectionName": "services",
+  "info": {
+    "name": "Service",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "ServiceName": {
+      "type": "string"
+    },
+    "Amount": {
+      "type": "float"
+    },
+    "Time": {
+      "type": "biginteger"
+    },
+    "Status": {
+      "type": "boolean",
+      "default": false
+    },
+    "ServiceCode": {
+      "type": "string"
+    },
+    "machineID": {
+      "type": "integer"
+    },
+    "icon": {
+      "type": "string"
+    },
+    "StartTime": {
+      "type": "datetime"
+    },
+    "EndTime": {
+      "type": "datetime"
+    },
+    "Available": {
+      "type": "boolean",
+      "default": true
+    },
+    "DelayTime": {
+      "type": "biginteger"
+    },
+    "Seconds": {
+      "type": "biginteger",
+      "default": "0"
+    },
+    "Type": {
+      "type": "string"
+    }
+  }
+}
